@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21477581120A5BBB0029D41E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21477580120A5BBB0029D41E /* Cocoa.framework */; };
+		21477586120A5BBB0029D41E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21477584120A5BBB0029D41E /* InfoPlist.strings */; };
+		21477588120A5BBB0029D41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21477587120A5BBB0029D41E /* main.m */; };
+		2147758B120A5BBC0029D41E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21477589120A5BBC0029D41E /* MainMenu.xib */; };
+		2147758E120A5BBC0029D41E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2147758C120A5BBC0029D41E /* Credits.rtf */; };
+		21477591120A5BBC0029D41E /* xVideoConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21477590120A5BBC0029D41E /* xVideoConverterAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2147757D120A5BBB0029D41E /* xVideoConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xVideoConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21477580120A5BBB0029D41E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		21477582120A5BBB0029D41E /* xVideoConverter-Info.plist */ = {isa = PBXFileReference; path = "xVideoConverter-Info.plist"; sourceTree = "<group>"; };
+		21477583120A5BBB0029D41E /* xVideoConverter_Prefix.pch */ = {isa = PBXFileReference; path = xVideoConverter_Prefix.pch; sourceTree = "<group>"; };
+		21477585120A5BBB0029D41E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21477587120A5BBB0029D41E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2147758A120A5BBC0029D41E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2147758D120A5BBC0029D41E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2147758F120A5BBC0029D41E /* xVideoConverterAppDelegate.h */ = {isa = PBXFileReference; path = xVideoConverterAppDelegate.h; sourceTree = "<group>"; };
+		21477590120A5BBC0029D41E /* xVideoConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xVideoConverterAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2147757A120A5BBB0029D41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21477581120A5BBB0029D41E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2147756E120A5BB80029D41E = {
+			isa = PBXGroup;
+			children = (
+				21477575120A5BBA0029D41E /* Classes */,
+				21477576120A5BBB0029D41E /* Other Sources */,
+				21477577120A5BBB0029D41E /* Resources */,
+				21477578120A5BBB0029D41E /* Frameworks */,
+				2147757E120A5BBB0029D41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21477575120A5BBA0029D41E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2147758F120A5BBC0029D41E /* xVideoConverterAppDelegate.h */,
+				21477590120A5BBC0029D41E /* xVideoConverterAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		21477576120A5BBB0029D41E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				21477583120A5BBB0029D41E /* xVideoConverter_Prefix.pch */,
+				21477587120A5BBB0029D41E /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		21477577120A5BBB0029D41E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21477582120A5BBB0029D41E /* xVideoConverter-Info.plist */,
+				21477584120A5BBB0029D41E /* InfoPlist.strings */,
+				21477589120A5BBC0029D41E /* MainMenu.xib */,
+				2147758C120A5BBC0029D41E /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		21477578120A5BBB0029D41E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21477580120A5BBB0029D41E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2147757E120A5BBB0029D41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2147757D120A5BBB0029D41E /* xVideoConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2147757C120A5BBB0029D41E /* xVideoConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21477594120A5BBC0029D41E /* Build configuration list for PBXNativeTarget "xVideoConverter" */;
+			buildPhases = (
+				21477579120A5BBB0029D41E /* Sources */,
+				2147757A120A5BBB0029D41E /* Frameworks */,
+				2147757B120A5BBB0029D41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xVideoConverter;
+			productName = xVideoConverter;
+			productReference = 2147757D120A5BBB0029D41E /* xVideoConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21477570120A5BBA0029D41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "***";
+			};
+			buildConfigurationList = 21477573120A5BBA0029D41E /* Build configuration list for PBXProject "xVideoConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2147756E120A5BB80029D41E;
+			productRefGroup = 2147757E120A5BBB0029D41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2147757C120A5BBB0029D41E /* xVideoConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2147757B120A5BBB0029D41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21477586120A5BBB0029D41E /* InfoPlist.strings in Resources */,
+				2147758B120A5BBC0029D41E /* MainMenu.xib in Resources */,
+				2147758E120A5BBC0029D41E /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21477579120A5BBB0029D41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21477588120A5BBB0029D41E /* main.m in Sources */,
+				21477591120A5BBC0029D41E /* xVideoConverterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21477584120A5BBB0029D41E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21477585120A5BBB0029D41E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21477589120A5BBC0029D41E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2147758A120A5BBC0029D41E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2147758C120A5BBC0029D41E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2147758D120A5BBC0029D41E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21477592120A5BBC0029D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		21477593120A5BBC0029D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		21477595120A5BBC0029D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = xVideoConverter_Prefix.pch;
+				INFOPLIST_FILE = "xVideoConverter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = xVideoConverter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21477596120A5BBC0029D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = xVideoConverter_Prefix.pch;
+				INFOPLIST_FILE = "xVideoConverter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = xVideoConverter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21477573120A5BBA0029D41E /* Build configuration list for PBXProject "xVideoConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21477592120A5BBC0029D41E /* Debug */,
+				21477593120A5BBC0029D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21477594120A5BBC0029D41E /* Build configuration list for PBXNativeTarget "xVideoConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21477595120A5BBC0029D41E /* Debug */,
+				21477596120A5BBC0029D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21477570120A5BBA0029D41E /* Project object */;
+}

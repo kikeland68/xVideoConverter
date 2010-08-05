@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'xVideoConverter' target in the 'xVideoConverter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+

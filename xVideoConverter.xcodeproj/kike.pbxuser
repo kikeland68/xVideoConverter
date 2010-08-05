@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{
+	21477570120A5BBA0029D41E /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2147757F120A5BBB0029D41E /* xVideoConverter */;
+		activeTarget = 2147757C120A5BBB0029D41E /* xVideoConverter */;
+		codeSenseManager = 21477574120A5BBA0029D41E /* Code sense */;
+		executables = (
+			2147757F120A5BBB0029D41E /* xVideoConverter */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		userBuildSettings = {
+		};
+	};
+	21477574120A5BBA0029D41E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2147757C120A5BBB0029D41E /* xVideoConverter */ = {
+		activeExec = 0;
+		executables = (
+			2147757F120A5BBB0029D41E /* xVideoConverter */,
+		);
+	};
+	2147757F120A5BBB0029D41E /* xVideoConverter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = xVideoConverter;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+}
